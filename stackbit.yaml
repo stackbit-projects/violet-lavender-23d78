@@ -1,0 +1,21 @@
+stackbitVersion: ~0.3.0
+dataDir: twitter
+models:
+  9_f_557_e_8_fec_9108_c_3_ce_5220_d_84_f_82_be_16:
+    type: data
+    label: 9 F 557 E 8 Fec 9108 C 3 Ce 5220 D 84 F 82 Be 16
+    file: 9f557e8fec9108c3ce5220d84f82be16.json
+    fields:
+      - type: list
+        name: errors
+        label: Errors
+        items:
+          type: object
+          fields:
+            - type: number
+              name: code
+              label: Code
+              subtype: int
+            - type: string
+              name: message
+              label: Message
